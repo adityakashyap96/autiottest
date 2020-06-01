@@ -1,3 +1,18 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+.navbar a:hover {
+background-color: #1bac91;
+}
+
+
+
+.carousel{
+  margin: 0;
+  position: fixed;
+  display: flex;
+}
 .services{
   width: 100%;
   align-items: center;
@@ -213,4 +228,119 @@ input[type="button"]{
 }
 input[type="button"]:hover{
   background-color: #a4b15c;
+}
+
+
+
+
+
+
+
+
+
+
+.about img{
+  padding: 80px 50px 50px 50px;
+}
+
+.about h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #21413c;
+}
+
+.about .icon-box {
+  margin-top: 44px;
+}
+
+.about .icon-box i {
+  font-size: 48px;
+  float: left;
+  color: #1bac91;
+}
+
+.about .icon-box h4 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 60px;
+  color: #21413c;
+}
+
+.about .icon-box p {
+  font-size: 15px;
+  color: #848484;
+  margin-left: 60px;
+}
+.copyright{
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  padding-top: 20px;
+
+}
+.container{
+  position: relative;
+}
+
+.text-block{
+  position:inherit;
+}
+
+
+
+
+/*contact*/
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #ccc;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #000;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1bac91;
+}
+
+/* Style the container/contact section */
+
+
+/* Create two columns that float next to eachother */
+.column {
+  float: right;
+  width: 25%;
+  padding: 20px;
+  position: absolute;
+  align-items: flex-start;
+  margin-left: 800px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+
+}
+.row img{
+  padding-right: 15px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
