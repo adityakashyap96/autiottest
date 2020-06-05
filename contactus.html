@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Contactus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ContactusAuTIoT</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -18,34 +20,38 @@
 
 
 <body>
-  <div class="container-fullwidth">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-      <a class="navbar-brand" href="#"></a>
-      <img src="images/logo-1autiot.png" alt="Logo" height="70" width="90">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarsExample09">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about-us.html">About-us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about-us.html">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contactus.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contactus.html">Careers</a>
-          </li>
-        </ul>
+  <div class="container= fullwidth">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
+        <a class="navbar-brand" href="#"></a>
+        <img src="images/logo-1autiot.png" alt="Logo" height="70" width="90">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample09">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About-us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Solutions.html">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="industries.html">Industries We Serve</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="careers.html">Careers</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
 
-      </div>
-  </div>
+    </div>
   <div class="contact-content">
     <h1>GET IN TOUCH</h1>
     <h5>We cherish all interactions</h5>
@@ -56,17 +62,17 @@
       <img src="images/contactus.jpg" alt="" height="500" width="100%">
 
       <div class="column" style="text-align: Right">
-        <form action="contact.php" method="post">
+        <form class="contact" action="contact.php" method="post">
           <label for="fname"></label>
           <input type="text" id="fname" name="firstname" placeholder="Your name:">
           <label for="lname"></label>
           <input type="text" id="lname" name="lastname" placeholder="Your last name:">
-          <label for="Email"></label>
+          <label for="email"></label>
           <input type="text" id="email" name="email" placeholder="Email:">
-          <label for="Subject"></label>
+          <label for="subject"></label>
           <input type="text" id="Subject" name="subject" placeholder="subject:">
-          <label for="Message"></label>
-          <textarea id="Message" name="Message" placeholder="Message:" style="height:100px"></textarea>
+          <label for="message"></label>
+          <textarea id="message" name="message" placeholder="Message:" style="height:100px"></textarea>
           <input type="submit" value="Submit">
         </form>
       </div>
@@ -123,6 +129,7 @@
                 &copy; <strong><span>2017 autiotengg.com</span></strong>. All Rights Reserved
               </div>
             </div>
+          </footer>
 </body>
 
 </html>
