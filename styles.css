@@ -2,12 +2,48 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
+.navbar a{
+  color: white;
+}
 .navbar a:hover {
-background-color: #1bac91;
+border: solid 3px;
+border-color: #1bac91;
+border-left: 0;
+border-right: 0;
+border-top: 0;
+
+}
+.navbar .navbar-toggler{
+  border: solid 2px;
+  border-color: rgb(27, 172, 145, 1);
+  padding: 5px;
+
+}
+.navbar .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(27, 172, 145, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+.navbar .navbar-toggler i {
+  color: #fff;
 }
 .navbar{
-  position: relative;
+  position: fixed;
+  background-color:black;
 }
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+.navbar .nav-item{
+  background-color: #1bac91;
+  border: solid 1px;;
+  border-radius: 10px;
+}
+.navbar .nav-link{
+  color: white;
+}
+
+
 
 
 .carousel{
