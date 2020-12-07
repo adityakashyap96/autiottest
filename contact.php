@@ -6,7 +6,7 @@ if (isset($_POST['submit'])) {
   $subject = $_POST['subject'];
   $message = $_POST['Message'];
 
-$to='adityakaranam1996@gmail.com'; // Receiver Email ID, Replace with your email ID
+                $to='naikn@autiotengg.com'; // Receiver Email ID, Replace with your email ID
 		$subject='$subject';
 		$message="Name :".$firstname.$lastname."\n"."Email: ".$mail."\n"."Subject: ".$suject."\n\n".$msg;
 		$headers="From: ".$email;
